@@ -1,0 +1,311 @@
+,Disease,log2FC
+ASPM,Glioma,4.7
+ASPM,COPD,-3.7
+ASPM,Pneumonia,3.5
+ASPM,Hemophagocytic lymphohistiocytosis,2.9
+ASPM,Acute liver failure,2.5
+ASPM,Leishmaniasis,2.4
+AURKB,Uterine cancer,4.1
+AURKB,Leukemia,3.9
+AURKB,Klinefelter's syndrome,-2.7
+AURKB,Lung cancer,3.1
+AURKB,Hemophagocytic lymphohistiocytosis,2.4
+AURKB,Glioma,3.1
+AURKB,Leishmaniasis,2.1
+BUB1,Ejaculatory azoospermia,-4.8
+BUB1,Glioma,3.7
+BUB1,Leishmaniasis,2.4
+BUB1,Lung cancer,3.3
+BUB1,Ulcerative colitis,2.2
+BUB1,Leukemia,2.7
+CCNA2,Leukemia,3.2
+CCNA2,Hemophagocytic lymphohistiocytosis,3.2
+CCNA2,Lung cancer,2.4
+CCNA2,COPD,-2.4
+CCR7,Leukemia,-4.1
+CCR7,Lung cancer,3.6
+CCR7,Pneumonia,3.3
+CCR7,Cutaneous lupus erythematosus,3.2
+CCR7,Psoriasis,2.6
+CCR7,Actinic keratosis,2.2
+CD247,Leukemia,-7
+CD247,Klinefelter's syndrome,6.3
+CD247,Lung cancer,3.4
+CD247,COPD,-3.3
+CD6,Leukemia,-6.6
+CD6,Lung cancer,3.9
+CD6,Ulcerative colitis,2.1
+CD6,Actinic keratosis,2.1
+CDC20,Ejaculatory azoospermia,-4.7
+CDC20,Uterine cancer,4.4
+CDC20,Lung cancer,4.1
+CDC20,Leukemia,3.4
+CDC20,Glioma,3.2
+CDC20,Acute liver failure,3
+CDC20,Actinic keratosis,2.5
+CDC20,Hemophagocytic lymphohistiocytosis,2.4
+CDC20,Atopic dermatitis,2.2
+CDC25A,Leishmaniasis,2.9
+CDC25A,Glioma,2.9
+CDC25A,Actinic keratosis,2.2
+CDC45,Lung cancer,2.6
+CDC45,Hemophagocytic lymphohistiocytosis,2.5
+CDC45,Breast cancer,2.5
+CDC45,Leukemia,2.4
+CDC45,Klinefelter's syndrome,-2.2
+CDC45,Autism,2
+CDCA8,Uterine cancer,4.2
+CDCA8,Breast cancer,3.4
+CDCA8,Lung cancer,3.2
+CDCA8,Actinic keratosis,2.3
+CDCA8,Hemophagocytic lymphohistiocytosis,2.2
+CDK1,Glioma,4
+CDK1,Breast cancer,3.7
+CDK1,Acute liver failure,2.6
+CDK1,Melanoma,2.4
+CDK1,Tuberculosis,-2
+CDKN3,Ejaculatory azoospermia,-6.4
+CDKN3,Lung cancer,4.5
+CDKN3,Uterine cancer,4.3
+CDKN3,COPD,-2.4
+CDKN3,Hemophagocytic lymphohistiocytosis,2.2
+CDKN3,Psoriasis,2
+CENPW,Glioma,3.2
+CENPW,Lung cancer,2.7
+CENPW,Leukemia,2.4
+CENPW,Breast cancer,2.1
+CEP55,Lung cancer,4
+CEP55,Uterine cancer,3.9
+CEP55,Leukemia,3.4
+CEP55,Leishmaniasis,2.7
+CEP55,Atopic dermatitis,2.5
+CKAP2L,Uterine cancer,4.7
+CKAP2L,Glioma,3.1
+CKAP2L,Ejaculatory azoospermia,-2.9
+CKAP2L,Hemophagocytic lymphohistiocytosis,2.5
+CKAP2L,Leukemia,2.3
+CKAP2L,Leishmaniasis,2.1
+CKAP4,Leukemia,-4.5
+CKAP4,Lung cancer,2.9
+CKAP4,Actinic keratosis,2.1
+CPA3,Breast cancer,-4
+CPA3,Leukemia,-3.5
+CPA3,Lung cancer,-3.3
+CPA3,Atopic eczema,-2.9
+CPA3,Hemophagocytic lymphohistiocytosis,-2.4
+CPA3,Atopic dermatitis,-2
+CTDSPL,Leukemia,-2.1
+CTDSPL,Glioma,-2.1
+DLGAP5,Glioma,5.6
+DLGAP5,Leukemia,4.4
+DLGAP5,Ejaculatory azoospermia,-4.1
+DLGAP5,Lung cancer,3.7
+DLGAP5,Hemophagocytic lymphohistiocytosis,3.5
+DLGAP5,COPD,-3.5
+DLGAP5,Pneumonia,3.2
+DLGAP5,Acute liver failure,2.9
+DLGAP5,Psoriasis,2.3
+DLGAP5,Leishmaniasis,2.7
+DPY19L2,Ejaculatory azoospermia,-4.6
+DPY19L2,Lung cancer,-2.3
+DPY19L2,Actinic keratosis,-2
+DYSF,Leukemia,-5
+DYSF,Lymphoma,2.8
+DYSF,Crohn's disease,2.3
+DYSF,Ulcerative colitis,2.1
+E2F2,Uterine cancer,3.3
+E2F2,Autism,3.3
+E2F2,Hemophagocytic lymphohistiocytosis,3.2
+E2F2,Lung cancer,2.7
+E2F2,Breast cancer,2.7
+E2F2,Leukemia,-2.3
+E2F7,Leukemia,-6.7
+E2F7,Uterine cancer,5.4
+E2F7,Glioma,5.3
+E2F7,Breast cancer,2.6
+FCER1A,Leukemia,3.1
+FCER1A,Breast cancer,-3
+FCER1A,Lung cancer,-3
+FCER1A,Tuberculosis,2.6
+FCER1A,Cutaneous lupus erythematosus,-2.7
+FCER1A,Ejaculatory azoospermia,2
+FPR1,Leukemia,-5.7
+FPR1,Crohn's disease,4.6
+FPR1,Ulcerative colitis,4
+FPR1,Glioma,3.2
+FPR1,Psoriasis,3
+FPR1,Lymphoma,2.4
+FPR1,Lung cancer,-2.3
+GGH,Lung cancer,7
+GGH,Acute liver failure,-2.7
+GGH,Ejaculatory azoospermia,-2.7
+GGH,Psoriasis,2.3
+GGH,Hemophagocytic lymphohistiocytosis,2.3
+HJURP,Glioma,6.3
+HJURP,Breast cancer,4.7
+HJURP,Ejaculatory azoospermia,-3.2
+HJURP,Leishmaniasis,2.7
+HJURP,Klinefelter's syndrome,-2.3
+HK3,Leukemia,-5.7
+HK3,Crohn's disease,3.2
+HK3,Ulcerative colitis,2.3
+HK3,Tuberculosis,2.2
+HLX,Leukemia,-5.5
+HLX,Breast cancer,-2.2
+HMGN5,Klinefelter's syndrome,-2.9
+HMGN5,Atopic eczema,-2.1
+HMGN5,Leukemia,-2
+HMMR,Ejaculatory azoospermia,-4.7
+HMMR,Leukemia,4.5
+HMMR,Acute liver failure,3.1
+HMMR,Breast cancer,3
+HMMR,COPD,-2.9
+HMMR,Leishmaniasis,2.6
+HMMR,Hemophagocytic lymphohistiocytosis,2.2
+HMMR,Pneumonia,2.1
+ITGA2B,Leukemia,3.7
+ITGA2B,Leishmaniasis,2.2
+ITGA2B,Lung cancer,2
+KIF11,Glioma,4.3
+KIF11,Leukemia,3.5
+KIF11,COPD,-3.3
+KIF11,Pneumonia,2.7
+KIF11,Hemophagocytic lymphohistiocytosis,2.7
+KIF11,Acute liver failure,2.1
+KLRB1,Leukemia,-6.3
+KLRB1,COPD,-4.3
+KLRB1,Cutaneous lupus erythematosus,2.1
+KLRB1,Pneumonia,3.8
+KLRB1,Acute liver failure,2
+LEF1,COPD,-5.1
+LEF1,Lung cancer,4.7
+LEF1,Leukemia,4.1
+LEF1,Ejaculatory azoospermia,-4.1
+LEF1,Melanoma,2.7
+LEF1,Klinefelter's syndrome,-2.1
+MCEMP1,Leukemia,-6.3
+MCEMP1,Crohn's disease,5.1
+MCEMP1,Ulcerative colitis,4.9
+MCEMP1,Lung cancer,-4.4
+MCM10,Breast cancer,4.9
+MCM10,Klinefelter's syndrome,-4.1
+MCM10,Glioma,3.2
+MCM10,Leishmaniasis,2.9
+MCM10,Leukemia,2.7
+MCM10,Psoriasis,2
+MPO,Leukemia,-6
+MPO,Crohn's disease,3.9
+MPO,Glioma,2.4
+MPO,Leishmaniasis,2
+MS4A3,Leukemia,-3.7
+MS4A3,Actinic keratosis,-2.2
+NCAPG,Atopic eczema,3.7
+NCAPG,Glioma,3.7
+NCAPG,Ejaculatory azoospermia,-3.7
+NCAPG,Leukemia,3.3
+NCAPG,Lung cancer,3
+NCAPG,COPD,-2.7
+NCAPG,Leishmaniasis,2.5
+NCAPG,Acute liver failure,2.5
+NCAPG,Psoriasis,2
+NEK2,Ejaculatory azoospermia,-4.7
+NEK2,Breast cancer,3.7
+NEK2,Lung cancer,3.4
+NEK2,Melanoma,3.1
+NEK2,Leukemia,2.7
+NEK2,Leishmaniasis,2.6
+NEK2,Pneumonia,2.6
+NEK2,Atopic dermatitis,2.3
+NFIL3,Leukemia,-4.7
+NFIL3,Lung cancer,-3.3
+PBK,Ejaculatory azoospermia,-6.4
+PBK,Glioma,5.3
+PBK,Breast cancer,3.9
+PBK,Leukemia,3.6
+PBK,Leishmaniasis,2.6
+PBK,COPD,-2.6
+PBK,Psoriasis,2.3
+PBK,Acute liver failure,2.2
+PHGDH,Leukemia,3.7
+PHGDH,Lung cancer,2.2
+PKMYT1,Uterine cancer,4
+PKMYT1,Actinic keratosis,3.7
+PKMYT1,Leishmaniasis,2.3
+PKMYT1,Breast cancer,2.1
+PPP1R18,Leukemia,4.9
+PPP1R18,Glioma,2.2
+PPP1R18,Atopic eczema,-2
+PRC1,Uterine cancer,3
+PRC1,Breast cancer,2.7
+RNASE2,Leukemia,-6
+RNASE2,Crohn's disease,3.3
+RNASE2,Tuberculosis,3.1
+RNASE2,Autism,2.2
+RNASE2,Acute liver failure,2.1
+RNASE3,Leukemia,-6.6
+RNASE3,Actinic keratosis,-3.9
+RNASE3,Lung cancer,-3.2
+RNASE3,Glioma,2.2
+RNASE3,Autism,2
+RRM2,Glioma,6.3
+RRM2,Breast cancer,3.9
+RRM2,Pneumonia,4.5
+RRM2,COPD,-4.3
+RRM2,Hemophagocytic lymphohistiocytosis,3.7
+RRM2,Leukemia,3.1
+RRM2,Tuberculosis,3
+RRM2,Acute liver failure,2.7
+RRM2,Leishmaniasis,2.7
+RRM2,Klinefelter's syndrome,2.2
+S100A9,Leukemia,-7
+S100A9,Psoriasis,6.7
+S100A9,Crohn's disease,4.7
+S100A9,Atopic dermatitis,4.9
+S100A9,Ulcerative colitis,4.7
+S100A9,Atopic eczema,4.2
+S100A9,Lymphoma,3.7
+S100A9,Autism,3.2
+S100A9,Tuberculosis,2.5
+SLC2A3,Leukemia,-5.1
+SLC2A3,Lung cancer,-2.7
+SLC2A3,Psoriasis,-2.4
+SLC2A3,Lymphoma,2.4
+SLC2A3,Crohn's disease,2.3
+SLC2A3,Ejaculatory azoospermia,-2.2
+SPOCK2,Leukemia,-6.7
+SPOCK2,COPD,-3
+SPOCK2,Melanoma,-2.9
+SPOCK2,Cutaneous lupus erythematosus,2
+SPOCK2,Lung cancer,-2.6
+SPOCK2,Breast cancer,2.5
+SPOCK2,Ulcerative colitis,2.3
+TCEAL9,Atopic eczema,-3.6
+TCEAL9,Leukemia,2.1
+TOP2A,Acute liver failure,3.8
+TOP2A,Autism,3.3
+TOP2A,Breast cancer,3.7
+TOP2A,COPD,-4.6
+TOP2A,Ejaculatory azoospermia,-5.3
+TOP2A,Glioma,6.3
+TOP2A,Leishmaniasis,2.3
+TOP2A,Lung cancer,6
+TP53I3,Lung cancer,2.3
+TP53I3,Glioma,2.7
+TRIP13,Ejaculatory azoospermia,-4.1
+TRIP13,Leukemia,2.5
+TRIP13,Leishmaniasis,2.1
+TRIP13,Uterine cancer,3.7
+TYMS,Pneumonia,4
+TYMS,Ejaculatory azoospermia,-3.7
+TYMS,Uterine cancer,3.4
+TYMS,Acute liver failure,2.7
+TYMS,Leukemia,2.5
+TYMS,Leishmaniasis,2.5
+TYMS,Hemophagocytic lymphohistiocytosis,2.4
+TYMS,Actinic keratosis,2.3
+UBE2C,Lung cancer,3.7
+UBE2C,Breast cancer,3.7
+UBE2C,Uterine cancer,3.4
+UBE2C,Hemophagocytic lymphohistiocytosis,2.5
+UBE2C,Pneumonia,2.4
+UBE2C,COPD,-2.3

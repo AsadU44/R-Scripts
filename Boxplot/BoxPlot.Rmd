@@ -1,0 +1,146 @@
+---
+title: "BoxPlot"
+author: "Asad"
+date: "5/2/2023"
+output: pdf_document
+---
+
+```{r}
+library(ggplot2)
+library(ggpubr)
+library(RColorBrewer)
+library(wesanderson)
+
+setwd('E:/R-Programming-Practices/Data Visualization/Boxplot')
+
+data<- data.frame(read.csv('FOXM1.csv'))
+
+compare_means(FOXM1 ~ Sample, data = data, method = 't.test', paired = F)
+
+#Two Sample T Test
+p <- ggboxplot(data, x = "Sample", y = "SOX9",
+               color = "Sample", palette = "jco",
+               add = "jitter") + stat_compare_means(method = 't.test', paired = F)
+p
+#Swap order
+p <- ggboxplot(data, x = "Sample", y = "SOX9",
+               color = "Sample", palette = "jco",
+               add = "jitter", order = c("Normal", "BRCA")) + 
+              stat_compare_means(method = 't.test', paired = F)
+p
+
+#Change orientation
+p <- ggboxplot(data, x = "Sample", y = "SOX9",
+               color = "Sample", palette = "jco",
+               add = "jitter", orientation = 'horizontal', order = c("Normal", "BRCA")) + 
+                stat_compare_means(method = 't.test', paired = F)
+p
+#Add Notch
+p <- ggboxplot(data, x = "Sample", y = "SOX9",
+               color = "Sample", palette = "jco",
+               add = "jitter", order = c("Normal", "BRCA"), notch = T) + 
+               stat_compare_means(method = 't.test', paired = F)
+p
+#Change shapes
+p <- ggboxplot(data, x = "Sample", y = "SOX9",
+               color = "Sample", shape='Sample', palette = "jco",
+               add = "jitter", order = c("Normal", "BRCA"), notch = T) + 
+                stat_compare_means(method = 't.test', paired = F)
+
+p
+#Change color
+#Specify color code
+display.brewer.all()
+display.brewer.pal(n = 8, name = 'RdBu')
+brewer.pal(n = 8, name = "RdBu")
+
+p <- ggboxplot(data, x = "Sample", y = "SOX9",
+               color = "Sample", shape='Sample', palette = c("#2166AC","#B2182B"),
+               add = "jitter", order = c("Normal", "BRCA"), notch = T) + 
+               stat_compare_means(method = 't.test', paired = F)
+p
+
+#Finalize
+p <- ggboxplot(data, x = "Sample", y = "SOX9",
+              fill = "Sample", , palette = c("#2166AC","#B2182B"),
+              order = c("Normal", "BRCA"), xlab = "Sample Type", ylab = "SOX9 Expression" ) +
+              stat_compare_means(method = 't.test', paired = F) + border() 
+p
+#Change legend position
+p<- ggpar(p, legend = "bottom")
+
+#Pairwise comparison among more than two groups
+p2 <- ggboxplot(data, x = "Subtype", y = "SOX9",
+               fill = "Subtype",  palette = brewer.pal(n = 7, name = "RdBu"),
+               xlab = "Subtype", ylab = "FOXM1 Expression", order = c("Normal", "ER+", "ER-", 
+              "HER2+", "HER2-", "TNBC")) + stat_compare_means(label = "p.signif", method = "t.test",
+              ref.group = "Normal") + border() 
+
+p2<- ggpar(p2, legend = 'none' )
+p2
+
+#Alternative pairwise comparison among more than two groups
+comp<- list(c("Normal","I"), c("Normal","II"), c("Normal","III"), c("Normal","IV"))
+
+p3 <- ggboxplot(data, x = "Stage", y = "SOX9", fill = "Stage",  palette = brewer.pal(n = 7, name = "RdBu"),
+                xlab = "Stage", ylab = "FOXM1 Expression", order = c("Normal", "I", "II", 
+              "III", "IV")) + stat_compare_means(method= 't.test', comparisons = comp 
+              ) + border() 
+                                              
+
+p3<- ggpar(p3, legend = 'none' )
+p3
+
+
+#Visualize with multiple panels
+#Prepare data
+data3<- data[1:1130,]
+p4 <- ggboxplot(data3, x = "Subtype", y = "SOX9",
+                fill = "Subtype",  palette = brewer.pal(n = 7, name = "RdBu"),
+                xlab = "Subtype", facet.by = 'Stage', ylab = "FOXM1 Expression", order = c("Normal", "ER+", "ER-", 
+                 "HER2+", "HER2-", "TNBC")) + stat_compare_means(label = 'p.format') + border() 
+P4<- ggpar(p4, legend = 'none')
+p4
+
+#Paired T Test
+# Two group need to have equal variables
+data2<- as.data.frame(data[1:40, 6:7])
+
+p5 <- ggpaired(data2, x = "Class", y = "P53",
+               color = "Class", palette ='jco',
+               add = "jitter", order = c("Before disease", "After disease"), line.color = "gray", line.size = 0.4) + 
+  stat_compare_means(method='t.test',paired = T)+border()
+
+p5
+
+#### Performing ANOVA
+p6<- ggboxplot(data, x = "Subtype", y = "FOXM1",
+               fill = "Subtype", palette = brewer.pal(n = 7, name = "RdBu"),
+                xlab = "Sample Type", ylab = "FOXM1 Expression", order = c("Normal", "ER+", "ER-", 
+              "HER2+", "HER2-", "TNBC") ) +stat_compare_means(method = 'anova', paired = F) + border() 
+p6<- ggpar(p4, legend = "bottom")
+p6
+
+##Barplot
+##Prepare data
+data4<- data[1:40,]
+
+p7<- ggbarplot(data4, x="Subtype", y='FOXM1', add = 'mean_se', fill ='Class',  
+               palette = brewer.pal(n = 7, name = "Spectral"), position = position_dodge(0.7),
+               xlab = 'FOXM1 Expression')+ stat_compare_means(aes(group = Class), 
+              label = "p.signif", label.y = 150) + border()
+
+p7<- ggpar(p7, legend = 'bottom')
+p7
+
+##Line plot
+p8<- ggline(data4, x="Subtype", y='FOXM1', add = 'mean_se', color = 'Class',  
+               palette = brewer.pal(n = 7, name = "RdBu"), xlab = 'FOXM1 Expression')+
+              stat_compare_means(aes(group = Class), label = "p.signif", label.y = 70) + border()
+
+p8<- ggpar(p8, legend = 'bottom')
+p8
+
+
+```
+
