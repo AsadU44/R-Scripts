@@ -1,0 +1,21 @@
+Description,Value,Var
+Syndecan interactions,4,Count
+Response to wounding,8,Count
+Defective CSF2RB causes SMDP5,3,Count
+TGF-beta signaling pathway,5,Count
+Cell cycle G2/M phase transition,4,Count
+PID AP1 PATHWAY,4,Count
+Negative regulation of cell,7,Count
+Hemopoiesis,6,Count
+Humoral immune response,4,Count
+Negative regulation of protein ,3,Count
+Syndecan interactions,-3.62,Log10(q)
+Response to wounding,-3.62,Log10(q)
+Defective CSF2RB causes SMDP5,-3.62,Log10(q)
+TGF-beta signaling pathway,-2.91,Log10(q)
+Cell cycle G2/M phase transition,-2.88,Log10(q)
+PID AP1 PATHWAY,-2.71,Log10(q)
+Negative regulation of cell,-1.84,Log10(q)
+Hemopoiesis,-1.43,Log10(q)
+Humoral immune response,-1.4,Log10(q)
+Negative regulation of protein ,-1.14,Log10(q)
